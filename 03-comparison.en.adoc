@@ -1,0 +1,26 @@
+== BPS Comparison to IPT
+
+The BPS provides similar capability to the IPT of enabling a structured mapping of database content to a versioned data standard.
+As a Python-based web application, an administrator can connect BioCASe to a relational database and map tables and views to elements of one of the XML-based data standards the tool supports (e.g. ABCD{blank}footnote:[Holetschek J, Dröge G, Güntsch A & Berendsohn WG 2012: The ABCD of primary biodiversity data access. Plant Biosystems – An International Journal Dealing with all Aspects of Plant Biology: Official Journal of the Societa Botanica Italiana, 146:4, 771-779. https://doi.org/10.1080/11263504.2012.740085]).
+
+In contrast to the IPT, typical data sources are the institutional relational databases, not delimited text files.
+Once configured, datasets will be published as a BioCASe web service{blank}footnote:[The BioCASe protocol: https://www.biocase.org/products/protocols], allowing a live request on the underlying data.
+In addition, all data published can be stored in (ABCD-)XML or DarwinCore archives
+
+The following feature matrix summarises the key distinctions between the BPS and the IPT:
+
+[cols=",,",]
+|===
+|*Feature* |*BPS* |*IPT*
+|Input data sources |Relational databases |Delimited text files (CSV) or relational databases
+|Output formats |XML, DwC-A |DwC-A
+|Data standards supported |ABCD (+ extensions), DarwinCore |DarwinCore
+|Single-record retrieval |Yes |No
+|Live access |Yes |No. Latest or archived version export of dataset only
+|Data validation |Very basic (mandatory fields, data types, simple vocabularies) |Limited. Checks on occurrenceID and warnings on controlled terms
+|Versioning support |No |Yes, with archival and DOI support if configured
+|Incremental updates |No |No
+|Metadata authoring |No |Yes
+|Automatic registration |No |Yes, to GBIF Registry
+|Runtime environment |Python |Java
+|===

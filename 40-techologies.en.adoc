@@ -1,0 +1,31 @@
+:!s:
+== Technologies and process
+
+The IPT and BPS are both developed using different software platforms (Java / Python) and have been designed, developed and maintained by a small centralized team with many external contributions.
+This section discusses technologies and processes for future revisions.
+
+=== Familiarity and change
+
+The tools have been used extensively, are well documented, are translated in multiple languages and included tried-and-tested training material.
+As tools that are infrequently used, there is benefit in consistency and familiarity for users to avoid having to “re-learn” new processes and web interfaces.
+
+:!n:
+[horizontal]
+{counter:c}.{counter:s}.{counter:n}.:: Balancing calls for change with a desire for consistency may be a challenge and one which could be tackled in several ways; evolving existing tools slowly, offering a major new release with significant change or even designing a new tool as an alternative. Perspectives on this are sought from the community of users.
+{c}.{s}.{counter:n}.:: Migrating existing installations is a real challenge for BioCASe users. In many cases, installations have been set up by persons that are not available any more, so instances run until they’re dead. Moving to another product will require active support, maybe on-site.
+
+=== Development approach
+
+The IPT was developed in Java and BPS in Python, each offering different benefits.
+There have expressions of interest to use Python by potential contributors, and there appears to be good support for Frictionless data with Python toolsets.
+
+:!n:
+[horizontal]
+{c}.{counter:s}.{counter:n}.:: Is there a desire to foster a wider community development approach around these tools? We are interested in ideas and opinions around this, including e.g.
++
+--
+[horizontal]
+{c}.{s}.{n}.{counter:m}.:: What language and application frameworks would be preferable?
+{c}.{s}.{n}.{counter:m}.:: Developments in other domains that could be used?
+{c}.{s}.{n}.{counter:m}.:: Development language?
+--

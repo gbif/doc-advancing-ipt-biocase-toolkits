@@ -1,0 +1,70 @@
+// Question numbering:
+//
+// AsciiDoctor doesn't include support for numbered lists like "1.2.3 An alternative…".  HTML does include
+// support, with some fairly complex CSS rules, but to make this work in a PDF we use custom counters.
+//
+// c: counter for the first (chapter) level
+// s: counter for the second (section) level
+// n: counter for the item
+
+:!c:
+== Purpose of the tools
+
+This section covers questions to explore and ideas relating to the scope of the tools and the purpose they fulfill for the institutions using them.
+
+:!s:
+=== Federated (live) search
+
+The BPS was designed to expose an institutional database on the web, so that it could participate in federated queries across institutions.
+
+:!n:
+[horizontal]
+{counter:c}.{counter:s}.{counter:n}.:: With a recent trend towards versioned dataset exports, is there still a demand for live, federated queries? If so, is BioCASe protocol still the preferred mechanism for this?
+
+=== Online repository, desktop tool or traditional provider software (server installation)?
+
+The IPT was developed to enable institutions to run a data repository on the internet, the BPS to provide an additional access point to a local database.
+There is a growing trend to use hosted infrastructure (e.g. Public clouds and shared IPTs) and open repositories (e.g. Zenodo).
+
+:!n:
+[horizontal]
+{c}.{counter:s}.{counter:n}.:: How important is it to run installations of a repository within your own institution? Network access to a local database?
+{c}.{s}.{counter:n}.:: Is there a preference that the GBIF (or other network) provide a _central/hosted_ tool offering data mapping and upload functionality?
+{c}.{s}.{counter:n}.:: An alternative model could be a desktop tool, allowing users to document metadata, format datasets but then push them to a hosted repository. This would remove the need to run a server. Would this be desirable?
+
+=== Merging the BPS and IPT into a single product
+
+The feature matrix above illustrates significant overlap in the IPT / BPS feature set.
+
+:!n:
+[horizontal]
+{c}.{counter:s}.{counter:n}.:: What considerations need to be made as we investigate the possibilities of merging these into a single tool?
+
+=== A single tool or a _toolkit_
+Both tools are single products packaging several functions (metadata authoring, data mapping to standards, archiving in a repository and registration services).
+
+:!n:
+[horizontal]
+{c}.{counter:s}.{counter:n}.:: Should we consider exploring a modular approach so that modules could be embedded in products beyond an institutional toolkit? An example could be a multilingual metadata authoring “wizard”, useful to embed in the GBIF registry, the IPT or network sites.
+
+=== Data quality validation
+
+Neither the BPS or IPT offer capabilities to report on, or enhance the quality of data beyond basic integrity constraints.
+There is potential to explore embedding validation routines, or making use of online services during the publication process.
+
+:!n:
+[horizontal]
+{c}.{counter:s}.{counter:n}.:: Should the tool(s) bring more attention to data quality issues during the publication process, and how would people like to see this achieved – a report, a search portal, integrating with an online service?
+{c}.{s}.{counter:n}.::  Should the tool(s) include the capability for peer review of data and metadata in the publication process?
+
+=== Standards and the data model
+
+The IPT supports EML extended with some basic terms for NCD for metadata and Darwin Core Archives including versioned extensions served from a central repository.
+The BPS supports mapping to any XML schema but is most commonly from the ABCD family, including domain specific extensions like GGBN (Global Genome Biodiversity Network) and EFG (Extension for Geosciences).
+
+It is well known that the star schema imposed by DwC-A has been a constraint for many uses within the wider GBIF community, but spreadsheet/tabular data has been well received.
+
+:!n:
+[horizontal]
+{c}.{counter:s}.{counter:n}.:: Should the tools be looking to use more expressive tabular data models, and if so, what standards today would be useful to explore (e.g. Frictionless Data)?
+{c}.{s}.{counter:n}.:: Should the IPT provide better means to document collection related metadata, such as the collection descriptions proposed by the forthcoming edition of the TDWG CD standard?

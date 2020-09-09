@@ -1,0 +1,11 @@
+== How to respond to this Ideas Paper
+
+The purpose of this paper is to capture ideas, topics that need further exploration and opinions for consideration for the future roadmaps of the BPS and IPT _without offering recommendations or decisions_.
+We welcome contributions as follows:
+
+* Join the online discussion at the 2020 TDWG https://www.tdwg.org/conferences/2020/working-sessions/#ws01:%20capturing%20ideas%20for%20the%20future%20of%20biocase%20provider%20software%20and%20the%20gbif%20integrated%20publishing%20toolkit%20(ipt)[workshops] (see https://www.tdwg.org/conferences/2020/working-sessions-schedule/[schedule])
+** Propose to present (max 7 minutes) of your idea, limitation or vision for the product
+* Open discussion topics on the GBIF https://discourse.gbif.org/[open forum].
+These could be responses to topics raised here or offering new ideas
+* Register feature requests on the IPT https://github.com/gbif/ipt/issues[GitHub issues] if they are not already captured
+* Please contact mailto:trobertson@gbif.org[trobertson@gbif.org] (Tim) or mailto:j.holetschek@bgbm.org[j.holetschek@bgbm.org] (Jörg)

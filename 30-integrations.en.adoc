@@ -1,0 +1,23 @@
+:!s:
+== Integrations with networks
+
+The BPS and IPT have supported communities to form data sharing networks by allowing for multiple repositories to be installed, providing common data schema repositories (e.g. the DwC-A extensions) and through registration with GBIF.
+This section discusses topics relating to the integration with other networks, infrastructure and services to support establishing a data sharing community.
+
+=== Registries
+
+The IPT can connect to GBIF’s registry and automatically register published datasets.
+
+:!n:
+[horizontal]
+{counter:c}.{counter:s}.{counter:n}.:: Are there other registries that should be taken into account?
+{c}.{s}.{counter:n}.:: If the tool should be used in another context than GBIF – how can registration be facilitated?
+
+=== Identifiers
+
+The GBIF IPT integrates closely with the GBIF network to ensure datasets are uniquely identified allowing for updates to be tracked, and to link them to the organizations to ensure appropriate credit is given.
+An IPT can additionally be configured to issue DOIs through connection with DataCite for those institutions who do not wish to rely on GBIF-registry issued DOIs.
+
+:!n:
+[horizontal]
+{c}.{counter:s}.{counter:n}.:: Are there other identifier agencies or processes around identifier management that you would like to see accommodated, such as https://ror.org[RORs] for Organisations or https://orcid.org/[ORCIDs] for (living) people?

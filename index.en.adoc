@@ -1,0 +1,36 @@
+= Advancing the IPT and BioCASe toolkits
+Jörg Holetschek; Tim Robertson; Matthew Blissett
+:toc: left
+:toclevels: 3
+:numbered:
+:sectnumlevels: 4
+:revnumber: {git-metadata-sha-short}
+:revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
+//:title-logo-image: img/web/photo.jpg
+:license: https://creativecommons.org/licenses/by-sa/4.0/
+
+ifdef::backend-html5[]
+languageLinks:combined[]
+endif::backend-html5[]
+
+:sectnums!:
+
+include::colophon.en.adoc[]
+
+include::01-background.en.adoc[]
+
+include::02-features.en.adoc[]
+
+include::03-comparison.en.adoc[]
+
+include::04-respond.en.adoc[]
+
+:sectnums:
+
+include::10-purpose.en.adoc[]
+
+include::20-specifics.en.adoc[]
+
+include::30-integrations.en.adoc[]
+
+include::40-techologies.en.adoc[]

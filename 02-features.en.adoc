@@ -1,0 +1,14 @@
+== IPT Features
+
+The IPT is a Java-based web application that can be used to run a data repository service to publish biodiversity data.
+The history, key functionality and design decisions leading to the current version of the IPT are well documented.footnote:[Robertson T, Döring M, Guralnick R, Bloom D, Wieczorek J, Braak K, et al. (2014) The GBIF Integrated Publishing Toolkit: Facilitating the Efficient Publishing of Biodiversity Data on the Internet. PLoS ONE 9(8): e102623. https://doi.org/10.1371/journal.pone.0102623]
+A brief summary of functionality is listed:
+
+. Support multiple users with distinct permissions to administer the software and to manage the resources it hosts.
+. Upload source data as a delimited text file (e.g. CSV) or connect to a database, requiring a network connection.
+. Map the data content (e.g., fields in a database or spreadsheet) from the source dataset to the terms in the Darwin Core standard.
+The IPT provides capabilities to follow changes to the standards by connecting to a central registry.
+. Enter dataset metadata that specify scope, methodology, ownership, rights, etc.
+. Produce a Darwin Core Archive and a publicly accessible web page that shows the metadata and links to the archive and other documents that were created.
+As versions are published, it is possible to archive historical versions.
+. Automate the registration of datasets (or notify of the availability of new versions) in the GBIF registry (https://registry.gbif.org) so they are discoverable, and indexed by GBIF and others.
