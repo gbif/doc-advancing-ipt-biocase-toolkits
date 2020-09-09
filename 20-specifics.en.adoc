@@ -11,19 +11,19 @@ Based on the purpose of live federated searches across networks, the BPS allows 
 [horizontal]
 {counter:c}.{counter:s}.{counter:n}.:: Keeping in mind the trend towards versioned exports of entire datasets: Is this still needed?
 
-=== Standards: DarwinCore/ABCD (+GGBN/EFG)/MIxS/customised sets of terms?
+=== Standards: Darwin Core/ABCD (+GGBN/EFG)/MIxS/customized sets of terms?
 
-The BPS can be used with an arbitrary XML schema, but is centered around the ABCD standard and its extensions; the IPT is intrinsically connected with DarwinCore.
+The BPS can be used with an arbitrary XML schema, but is centred around the ABCD standard and its extensions; the IPT is intrinsically connected with Darwin Core.
 
 :!n:
 [horizontal]
 {c}.{counter:s}.{counter:n}.:: How close should the tool be coupled with the standard(s) supported, keeping in mind that a complete decoupling would limit certain features such as data validation?
-{c}.{s}.{counter:n}.:: Since both DarwinCore and ABCD need to be supported: Will there be two mappings if you want to provide data in both standards? Or will there be one mapping and the output will be converted into another standard upon request (as implemented now in the BPS, which transforms ABCD documents into DarwinCore archives).
+{c}.{s}.{counter:n}.:: Since both Darwin Core and ABCD need to be supported: Will there be two mappings if you want to provide data in both standards? Or will there be one mapping and the output will be converted into another standard upon request (as implemented now in the BPS, which transforms ABCD documents into Darwin Core archives).
 
 === Input formats: CSV, relational databases?
 
 Typical input data for the IPT are delimited text files (with the possibility to also import data from simple database tables and views), whereas the BPS was designed to load data from (potentially complex) relational databases.
-This is connected with the specifics of the data standards – DarwinCore being rather flat, ABCD having a hierarchical structure with many repeatable elements.
+This is connected with the specifics of the data standards – Darwin Core being rather flat, ABCD having a hierarchical structure with many repeatable elements.
 
 :!n:
 [horizontal]
@@ -32,7 +32,7 @@ This is connected with the specifics of the data standards – DarwinCore being 
 
 === Output formats: DwC-A, XML, RDF, Frictionless data, JSON?
 
-The IPT produces DarwinCore archives that store delimited text files, one core file (typically an occurrence) and potentially several extension(s) connected through the star schema.
+The IPT produces Darwin Core archives that store delimited text files, one core file (typically an occurrence) and potentially several extension(s) connected through the star schema.
 Due to its XML nature, the ABCD standard used by the BPS allows 1:n relations between entities other than the occurrence.
 
 :!n:

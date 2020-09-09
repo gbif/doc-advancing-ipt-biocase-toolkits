@@ -3,6 +3,6 @@
 This ideas paper explores needs and opportunities for the future direction of the https://www.biocase.org/products/provider_software/[BioCASe Provider Software] (BPS) and the GBIF https://www.gbif.org/ipt[Integrated Publishing Toolkit] (IPT).
 These tools have been fundamental components used to build open biodiversity data infrastructure.
 Closely following the https://www.tdwg.org/standards/[TDWG standards], they have been used for more than a decade across several data networks and have an established community of users.
-This experience has led to a good understanding of the limitations of the existing products which we aim to summarise in this consultation.
-Additionally we recognise that standards have evolved, and there have been changes in open data practices, such as an increased use of open data repositories and reliance on hosted infrastructure.
+This experience has led to a good understanding of the limitations of the existing products which we aim to summarize in this consultation.
+Additionally we recognize that standards have evolved, and there have been changes in open data practices, such as an increased use of open data repositories and reliance on hosted infrastructure.
 We will also consider if the scope and functionalities of the products still address today’s needs of the communities running open data networks.

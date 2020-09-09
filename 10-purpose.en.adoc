@@ -10,7 +10,7 @@
 :!c:
 == Purpose of the tools
 
-This section covers questions to explore and ideas relating to the scope of the tools and the purpose they fulfill for the institutions using them.
+This section covers questions to explore and ideas relating to the scope of the tools and the purpose they fulfil for the institutions using them.
 
 :!s:
 === Federated (live) search

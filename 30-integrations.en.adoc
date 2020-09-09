@@ -20,4 +20,4 @@ An IPT can additionally be configured to issue DOIs through connection with Data
 
 :!n:
 [horizontal]
-{c}.{counter:s}.{counter:n}.:: Are there other identifier agencies or processes around identifier management that you would like to see accommodated, such as https://ror.org[RORs] for Organisations or https://orcid.org/[ORCIDs] for (living) people?
+{c}.{counter:s}.{counter:n}.:: Are there other identifier agencies or processes around identifier management that you would like to see accommodated, such as https://ror.org[RORs] for organizations or https://orcid.org/[ORCIDs] for (living) people?
