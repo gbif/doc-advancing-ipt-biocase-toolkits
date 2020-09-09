@@ -24,4 +24,4 @@ https://doi.org/10.35035/cdps-md62
 //Third edition, April 2020
 
 === Cover image
-Perentie (_Varanus giganteus_), Macleod, Washington, United States. Photo 2012 Tim Robertson via https://www.gbif.org/occurrence/2423018547[iNaturalist research-grade observations], https://creativecommons.org/publicdomain/zero/1.0/[CC0].
+Perentie (_Varanus giganteus_), Macleod, Western Australia. Photo 2012 Tim Robertson via https://www.gbif.org/occurrence/2423018547[iNaturalist research-grade observations], https://creativecommons.org/publicdomain/zero/1.0/[CC0].
