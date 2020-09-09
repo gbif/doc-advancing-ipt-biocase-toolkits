@@ -1,28 +1,27 @@
 // add cover image to img directory and update filename below
-//ifdef::backend-html5[]
-//image::img/web/photo.jpg[]
-//endif::backend-html5[]
+ifdef::backend-html5[]
+image::img/web/Varanus_giganteus.jpg[]
+endif::backend-html5[]
 
-//== Colophon
+== Colophon
 
 //=== Suggested citation
-//Jörg Holetschek, Tim Robertson, Matthew Blissett. Advancing the IPT and BioCASe toolkits. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/doc-xxxx-xxxx.
+Jörg Holetschek, Tim Robertson, Matthew Blissett. Advancing the IPT and BioCASe toolkits. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/cdps-md62
 
-//=== Authors
-//Jörg Holetschek, Tim Robertson, Matthew Blissett
+=== Authors
+Jörg Holetschek, https://orcid.org/0000-0001-6215-3617[Tim Robertson], https://orcid.org/0000-0003-0623-6682[Matthew Blissett]
 
 //=== Contributors
 //James Joyce and Samuel Beckett of Trinity College, Dublin, contributed to this version of the document.
 
-//=== Licence
-//The document _Advancing the IPT and BioCASe toolkits_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
+=== Licence
+The document _Advancing the IPT and BioCASe toolkits_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
 
-//=== Persistent URI
-//https://doi.org/10.35035/doc-xxxx-xxxx
+=== Persistent URI
+https://doi.org/10.35035/cdps-md62
 
 //=== Document control
 //Third edition, April 2020
 
-//=== Cover image
-// Caption. Credit, source, licence.
-//Western honey bee (_Apis mellifera_), Hardy County, Florida, United States. Photo 2018 thebugroomno2 via https://www.gbif.org/occurrence/1945467387[iNaturalist research-grade observations], licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0].
+=== Cover image
+Perentie (_Varanus giganteus_), Macleod, Washington, United States. Photo 2012 Tim Robertson via https://www.gbif.org/occurrence/2423018547[iNaturalist research-grade observations], https://creativecommons.org/publicdomain/zero/1.0/[CC0].

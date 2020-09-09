@@ -6,7 +6,7 @@ Jörg Holetschek; Tim Robertson; Matthew Blissett
 :sectnumlevels: 4
 :revnumber: {git-metadata-sha-short}
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
-//:title-logo-image: img/web/photo.jpg
+:title-logo-image: img/web/Varanus_giganteus.jpg
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 
 ifdef::backend-html5[]
