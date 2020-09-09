@@ -12,7 +12,7 @@ The following feature matrix summarizes the key distinctions between the BPS and
 [cols=",,",]
 |===
 |*Feature* |*BPS* |*IPT*
-|Input data sources |Relational databases |Delimited text files (CSV) or relational databases
+|Input data sources |Relational databases |Delimited text files (CSV), Excel, DwC-A or relational databases
 |Output formats |XML, DwC-A |DwC-A
 |Data standards supported |ABCD (+ extensions), Darwin Core |Darwin Core
 |Single-record retrieval |Yes |No
