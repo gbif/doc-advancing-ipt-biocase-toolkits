@@ -39,7 +39,7 @@ Due to its XML nature, the ABCD standard used by the BPS allows 1:n relations be
 [horizontal]
 {c}.{counter:s}.{counter:n}.:: With the limitations of the star schema, should DwC archives evolve into Frictionless data packages?
 {c}.{s}.{counter:n}.:: Is XML still a desirable output format?
-{c}.{s}.{counter:n}.:: Other output formats – RDF, JSON? If yes: Should these be produced by the tool natively or could these be generated from other formats on the fly, e.g. by using Frictionless data?
+{c}.{s}.{counter:n}.:: Other output formats – RDF, JSON, Catalogue of Life data packages? If yes: Should these be produced by the tool natively or could these be generated from other formats on the fly, e.g. by using Frictionless data?
 
 === Versioning
 
