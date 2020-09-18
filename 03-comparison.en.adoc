@@ -17,7 +17,7 @@ The following feature matrix summarizes the key distinctions between the BPS and
 |Data standards supported |ABCD (+ extensions), Darwin Core |Darwin Core
 |Single-record retrieval |Yes |No
 |Live access |Yes |No. Latest or archived version export of dataset only
-|Data validation |Very basic (mandatory fields, data types, simple vocabularies) |Limited. Checks on term:dwc[occurrenceID] and warnings on controlled terms
+|Data validation |Very basic (mandatory fields, data types, simple vocabularies) |Limited. Checks on term:dwc[occurrenceID] and warnings of data not aligning to the recommended vocabulary values
 |Versioning support |No |Yes, with archival and DOI support if configured
 |Incremental updates |No |No
 |Metadata authoring |No |Yes
