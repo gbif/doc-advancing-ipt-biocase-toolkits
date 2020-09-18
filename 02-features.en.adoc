@@ -5,7 +5,7 @@ The history, key functionality and design decisions leading to the current versi
 A brief summary of functionality is listed:
 
 . Support multiple users with distinct permissions to administer the software and to manage the resources it hosts.
-. Upload spreadsheet, delimitted text file (e.g. CSV) or connect to a database (requiring a network connection) to use as sources of data.
+. Upload spreadsheet, delimited text file (e.g. CSV) or connect to a database (requiring a network connection) to use as sources of data.
 . Map the data content (e.g. fields in a database or spreadsheet) from the source dataset to the terms in the Darwin Core standard.
 The IPT provides capabilities to follow changes to the standards by connecting to a central registry.
 . Enter dataset metadata that specify scope, methodology, ownership, rights, etc.
