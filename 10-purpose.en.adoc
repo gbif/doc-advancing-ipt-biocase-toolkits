@@ -19,7 +19,8 @@ The BPS was designed to expose an institutional database on the web, so that it 
 
 :!n:
 [horizontal]
-{counter:c}.{counter:s}.{counter:n}.:: With a recent trend towards versioned dataset exports, is there still a demand for live, federated queries? If so, is BioCASe protocol still the preferred mechanism for this?
+{counter:c}.{counter:s}.{counter:n}.:: With a recent trend towards versioned dataset exports, is there still a demand for live, federated queries? Would the support of RDF as output format create such a need?
+{c}.{s}.{counter:n}.:: If so, is BioCASe protocol still the preferred mechanism for this?
 
 === Online repository, desktop tool or traditional provider software (server installation)?
 
